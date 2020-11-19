@@ -205,8 +205,8 @@ public class DefaultPermutationRotationIterator implements PermutationRotationIt
 	 * 
 	 * @return permutation count
 	 */
-	
-	long countPermutations() {
+
+	public long countPermutations() {
 		// reduce permutations for boxes which are duplicated
 		
 		// could be further bounded by looking at how many boxes (i.e. n x the smallest) which actually

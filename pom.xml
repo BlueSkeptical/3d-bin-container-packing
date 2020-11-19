@@ -158,6 +158,7 @@
 	<modules>
 		<module>test</module>
 		<module>core</module>
+		<module>jcstest</module>
 	</modules>
 
 	<build>
