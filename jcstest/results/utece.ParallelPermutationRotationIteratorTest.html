@@ -22,7 +22,7 @@
  </style>
 </head>
 <body>
-<h1>utece.BoxTest</h1>
+<h1>utece.ParallelPermutationRotationIteratorTest</h1>
 <h3>Description and references</h3>
 <p>null</p>
 <h3>Environment</h3>
@@ -79,21 +79,21 @@
 <td nowrap>JVM options: [-XX:-TieredCompilation]
 Iterations: 5
 Time: 1000
-Stride: [10, 10000] (capped by NONE)</td>
+Stride: [10, 4096] (capped by FOOTPRINT)</td>
 </tr>
 <tr>
 <td nowrap><b>TC 2</b></td>
 <td nowrap>JVM options: [-XX:TieredStopAtLevel=1]
 Iterations: 5
 Time: 1000
-Stride: [10, 10000] (capped by NONE)</td>
+Stride: [10, 4096] (capped by FOOTPRINT)</td>
 </tr>
 <tr>
 <td nowrap><b>TC 3</b></td>
 <td nowrap>JVM options: [-Xint]
 Iterations: 5
 Time: 1000
-Stride: [10, 10000] (capped by NONE)</td>
+Stride: [10, 2048] (capped by TIME)</td>
 </tr>
 </table>
 <h3>Observed states</h3>
@@ -108,9 +108,9 @@ Stride: [10, 10000] (capped by NONE)</td>
 </tr>
 <tr>
 <td align='center'>true, true</td>
-<td align='right' width='10.0%' bgColor=#00ff00>686217282</td>
-<td align='right' width='10.0%' bgColor=#00ff00>75499261</td>
-<td align='right' width='10.0%' bgColor=#00ff00>5203861</td>
+<td align='right' width='10.0%' bgColor=#00ff00>1523776</td>
+<td align='right' width='10.0%' bgColor=#00ff00>553223</td>
+<td align='right' width='10.0%' bgColor=#00ff00>81367</td>
 <td>ACCEPTABLE</td>
 <td>Default outcome.</td>
 </tr>

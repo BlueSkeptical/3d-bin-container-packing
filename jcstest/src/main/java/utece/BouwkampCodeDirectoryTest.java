@@ -30,18 +30,11 @@
  */
 package utece;
 
-
-// See jcstress-samples or existing tests for API introduction and testing guidelines
-
-import com.github.skjolber.packing.*;
 import com.github.skjolber.packing.test.BouwkampCodeDirectory;
 import org.openjdk.jcstress.annotations.*;
 import org.openjdk.jcstress.infra.results.ZZ_Result;
 
-import java.util.ArrayList;
-import java.util.List;
-
-//@JCStressTest
+@JCStressTest
 // Outline the outcomes here. The default outcome is provided, you need to remove it:
 @Outcome(id = "true, true", expect = Expect.ACCEPTABLE, desc = "Default outcome.")
 @State

@@ -29,23 +29,15 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
 package utece;
-
-
-// See jcstress-samples or existing tests for API introduction and testing guidelines
-
 import com.github.skjolber.packing.*;
 import com.github.skjolber.packing.impl.DefaultPermutationRotationIterator;
 import com.github.skjolber.packing.impl.ParallelPermutationRotationIterator;
-import com.github.skjolber.packing.test.BouwkampCodeDirectory;
 import org.openjdk.jcstress.annotations.*;
 import org.openjdk.jcstress.infra.results.ZZ_Result;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 @JCStressTest
-// Outline the outcomes here. The default outcome is provided, you need to remove it:
 @Outcome(id = "true, true", expect = Expect.ACCEPTABLE, desc = "Default outcome.")
 @State
 public class ParallelPermutationRotationIteratorTest {
