@@ -6,7 +6,7 @@ public class BinarySearchIterator {
 	private int high;
 	private int mid;
 
-	BinarySearchIterator(int low, int high) {
+	public BinarySearchIterator(int low, int high) {
 		super();
 		this.low = low;
 		this.high = high;

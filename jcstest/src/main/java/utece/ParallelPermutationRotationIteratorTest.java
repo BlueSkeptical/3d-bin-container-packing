@@ -37,7 +37,7 @@ import org.openjdk.jcstress.infra.results.ZZ_Result;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-@JCStressTest
+//@JCStressTest
 @Outcome(id = "true, true", expect = Expect.ACCEPTABLE, desc = "Default outcome.")
 @State
 public class ParallelPermutationRotationIteratorTest {
